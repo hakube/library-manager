@@ -1,3 +1,5 @@
+export const appTitleDefault = 'LIBRARY MANAGEMENT SYSTEM';
+
 export const pages = [
     {
         name: 'Dashboard',
@@ -10,6 +12,14 @@ export const pages = [
     {
         name: 'Books',
         url: '/books',
+    },
+    {
+        name: 'Late Returns',
+        url: '/late-returns',
+    },
+    {
+        name: 'Reports',
+        url: '/reports',
     },
 ];
 export const settings = [
